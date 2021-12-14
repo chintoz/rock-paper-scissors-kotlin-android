@@ -14,6 +14,10 @@
         <action
                 android:id="@+id/action_FirstFragment_to_SecondFragment"
                 app:destination="@id/SecondFragment"/>
+
+        <action
+                android:id="@+id/action_FirstFragment_to_PlayerManagementFragment"
+                app:destination="@id/PlayerManagementFragment"/>
     </fragment>
     <fragment
             android:id="@+id/SecondFragment"
@@ -24,5 +28,26 @@
         <action
                 android:id="@+id/action_SecondFragment_to_FirstFragment"
                 app:destination="@id/FirstFragment"/>
+    </fragment>
+    <fragment
+            android:id="@+id/PlayerManagementFragment"
+            android:name="es.menasoft.rockpaperscissors.PlayerManagementFragment"
+            android:label="@string/welcome"
+            tools:layout="@layout/player_management">
+
+        <action
+                android:id="@+id/action_PlayerManagementFragment_to_CreatePlayerFragment"
+                app:destination="@id/CreatePlayerFragment"/>
+
+    </fragment>
+    <fragment
+            android:id="@+id/CreatePlayerFragment"
+            android:name="es.menasoft.rockpaperscissors.CreatePlayerFragment"
+            android:label="@string/welcome"
+            tools:layout="@layout/create_player">
+
+        <action
+                android:id="@+id/action_CreatePlayerFragment_to_PlayerManagementFragment"
+                app:destination="@id/PlayerManagementFragment"/>
     </fragment>
 </navigation>

@@ -3,7 +3,12 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/chint/IdeaProjects/RockPaperScissors/app/src/main/res/layout/activity_main.xml" value="0.16197916666666667" />
+        <entry key="..\:/Users/chint/IdeaProjects/RockPaperScissors/app/src/main/res/layout/activity_main.xml" value="0.5" />
+        <entry key="..\:/Users/chint/IdeaProjects/RockPaperScissors/app/src/main/res/layout/content_main.xml" value="0.340625" />
+        <entry key="..\:/Users/chint/IdeaProjects/RockPaperScissors/app/src/main/res/layout/create_player.xml" value="0.340625" />
+        <entry key="..\:/Users/chint/IdeaProjects/RockPaperScissors/app/src/main/res/layout/fragment_first.xml" value="0.340625" />
+        <entry key="..\:/Users/chint/IdeaProjects/RockPaperScissors/app/src/main/res/layout/fragment_second.xml" value="0.2328125" />
+        <entry key="..\:/Users/chint/IdeaProjects/RockPaperScissors/app/src/main/res/layout/player_management.xml" value="0.340625" />
       </map>
     </option>
   </component>

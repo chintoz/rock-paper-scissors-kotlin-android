@@ -2,10 +2,25 @@
     <string name="app_name">Rock Paper Scissors</string>
     <string name="action_settings">Settings</string>
     <!-- Strings used for fragments for navigation -->
-    <string name="first_fragment_label">First Fragment</string>
+    <string name="first_fragment_label">Welcome to Rock Paper Scissor Game</string>
     <string name="second_fragment_label">Second Fragment</string>
     <string name="next">Next</string>
     <string name="previous">Previous</string>
+
+    <!-- Main menu -->
+    <string name="welcome">Welcome to Rock, Paper, Scissors Game</string>
+    <string name="player_management">Player Management</string>
+    <string name="play_game">Play Game</string>
+
+    <!-- Player management -->
+    <string name="create_player">Create Player</string>
+    <string name="set_player">Use existing player</string>
+
+    <!-- Game management -->
+
+    <!-- General keys -->
+    <string name="back">Back</string>
+
 
     <string name="hello_first_fragment">Hello first fragment</string>
     <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
